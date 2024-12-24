@@ -1,0 +1,35 @@
+* {
+    font-size: 16px;
+}
+
+body {
+    background: linear-gradient(130deg, #6366f1 10%, #0ea5e9 30%, #10b981 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#root, 
+#root > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    width: 90%;
+}
+
+textarea,
+#markdown-preview {
+    width: 48%;
+    height: 80vh;
+    padding: 2%;
+    border-radius: 30px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+#markdown-preview {
+    overflow-x: auto;
+    background-color: #fff;
+}
